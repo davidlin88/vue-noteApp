@@ -38,7 +38,6 @@ export default {
       notes: state => state.notes,
       activeNote: state => state.activeNote
     }),
-    // 上下能合并吗?
     ...mapGetters({
       favoriteNotes: 'favoriteNotes'
     })
